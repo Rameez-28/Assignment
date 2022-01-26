@@ -1,0 +1,54 @@
+* /*This is universal selector*/
+{
+    margin:0px;
+    padding:0px;
+}
+
+body
+{
+    height: 50vw;
+    width: 100vw;
+    background-image: url(./drum1.jpg);
+    background-size: 100% 100%;
+
+}
+.keys
+{
+    width: 90%;
+    position: relative;
+    top: 40.5vh;
+    height: 20vh;
+    display: flex;
+    margin: 0 auto;
+    border: 2px solid red;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.key
+{
+    border-radius: 0.5rem;
+    border: 0.4rem solid white ;
+    height: 80%;
+    width: 8%;
+    text-align: center;
+    background-color: rgba(0,0,0,00.4) ;
+    transition: all 0.07s ease;
+}
+kbd
+{
+    color: rgb(245, 240, 240);
+    display: block;
+    font-size: 4rem;
+}
+span
+{
+    font-size: 1.5rem;
+    color: red;
+    text-transform: uppercase;
+}
+.playing
+{
+    transform: scale(1.1);
+    border-color: #7c3af7;
+    box-shadow: 0 0 0 0 #282bf3;
+}
