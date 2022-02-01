@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/site.css">
+    <link rel="stylesheet" href="./site.css">
+    <!-- <link rel="stylesheet" href="/site.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,8 +15,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
-
-
+<!-- <link rel="stylesheet"  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/> -->
+<link rel="stylesheet"  href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 </head>
 
 <body>
@@ -70,6 +71,28 @@
             </ul>
         </nav>
         <!-- nav3 end -->
+        <section id="sidenav">
+            <ul>
+                <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#"><i class="fa fa-user"></i>Boy</a></li>
+                <li><a href="#"><i class="fa fa-users"></i> Accesssories</a></li>
+                
+                <li><a href="#"><i class="fa fa-calendar-check-o"></i>Special</a></li>
+                <li><a href="#"><i class="fa fa-search"></i>Find</a></li>
+           
+                <li><a href="#"><i class="fa fa-anchor"></i>
+                    Toys <i class="fa fa-caret-down"></i></a>
+                <ul>
+                    <li><a href="#"><i class="fa fa-clipboard"></i>Wooden</a></li>
+                    <li><a href="#"><i class="fa fa-circle-o"></i>Plastic</a></li>
+                    <li><a href="#"><i class="fa fa-gavel"></i>Iron</a></li>
+                </ul>
+            </li>
+            </ul>
+        </section>
+        <section>
+            <i class="fa fa-anchor" id="menubar"></i>
+        </section>
 
         <!-- featured start -->
         <section class="featured">
@@ -93,7 +116,7 @@
     <div class="card-container">
     <div class="card">
         <div>
-            <img src="/shoes.jpg" alt="">
+            <img src="./img1.jpg" alt="" id="img1">
         </div>
         <h1>Branded shoes</h1>
         <span>
@@ -103,101 +126,105 @@
             <i class="fa fa-star"></i>
         </span>
         <p>Rs. 5000/-</p>
-        <button>Add to Cart</button>
+        <button id="btn1">Add to Cart</button>
+    <div class="cart-quantity cart-column">
+        <input class="cart-quantity-input" type="number" value="1">
+        <button class="btn btn-danger" type="button">Remove </button>
+    </div>
     </div>
     
     <div class="card">
         <div>
-            <img src="/shoes.jpg" alt="">
+            <img src="./img2.jpg" alt="">
         </div>
-        <h1>Branded shoes</h1>
+        <h1>Ray-Ban Glasses</h1>
         <span>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
         </span>
-        <p>Rs. 5000/-</p>
+        <p>Rs. 10000/-</p>
         <button>Add to Cart</button>
     </div>
     <div class="card">
         <div>
-            <img src="/shoes.jpg" alt="">
+            <img src="./img3.jfif" alt="">
         </div>
-        <h1>Branded shoes</h1>
+        <h1>Wallet</h1>
         <span>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
         </span>
-        <p>Rs. 5000/-</p>
+        <p>Rs. 2000/-</p>
         <button>Add to Cart</button>
     </div>
     <div class="card">
         <div>
-            <img src="/shoes.jpg" alt="">
+            <img src="./img4.jpg" alt="">
         </div>
-        <h1>Branded shoes</h1>
+        <h1>Wrist Watch</h1>
         <span>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
         </span>
-        <p>Rs. 5000/-</p>
+        <p>Rs. 2000/-</p>
         <button>Add to Cart</button>
     </div>
 </div>
 <div class="card-container">
     <div class="card">
         <div>
-            <img src="/shoes.jpg" alt="">
+            <img src="./img5.jpg" alt="">
         </div>
-        <h1>Branded shoes</h1>
+        <h1>Perfume</h1>
         <span>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
         </span>
-        <p>Rs. 5000/-</p>
+        <p>Rs. 3000/-</p>
         <button>Add to Cart</button>
     </div>
     
     <div class="card">
         <div>
-            <img src="/shoes.jpg" alt="">
+            <img src="./img6.jpg" alt="">
         </div>
-        <h1>Branded shoes</h1>
+        <h1>Cigeratte Case</h1>
         <span>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
         </span>
-        <p>Rs. 5000/-</p>
+        <p>Rs. 1000/-</p>
         <button>Add to Cart</button>
     </div>
     <div class="card">
         <div>
-            <img src="/shoes.jpg" alt="">
+            <img src="./img7.jfif" alt="">
         </div>
-        <h1>Branded shoes</h1>
+        <h1>Jacket</h1>
         <span>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
         </span>
-        <p>Rs. 5000/-</p>
+        <p>Rs. 12000/-</p>
         <button>Add to Cart</button>
     </div>
     <div class="card">
         <div>
-            <img src="/shoes.jpg" alt="">
+            <img src="./img8.jpg" alt="">
         </div>
-        <h1>Branded shoes</h1>
+        <h1>Helmet</h1>
         <span>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
@@ -211,6 +238,224 @@
 </section>
 <!-- latest end -->
 
+<!-- popular product start -->
+<section class="latest">
+    <div class="product-intro">
+        <h1>Popular <span>Products</span></h1>
+        <p>latest products are here</p>
+       
+    </div>
+    <div class="card-container">
+    <div class="card">
+        <div>
+            <img src="img9.jpg" alt="">
+        </div>
+        <h1>Air Dots</h1>
+        <span>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+        </span>
+        <p>Rs. 2000/-</p>
+        <button>Add to Cart</button>
+    </div>
+    
+    <div class="card">
+        <div>
+            <img src="./img10.jpg" alt="">
+        </div>
+        <h1>Drone</h1>
+        <span>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+        </span>
+        <p>Rs. 15000/-</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="card">
+        <div>
+            <img src="./img11.jpg" alt="">
+        </div>
+        <h1>Nikkon</h1>
+        <span>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+        </span>
+        <p>Rs. 120000/-</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="card">
+        <div>
+            <img src="./img12.jpg" alt="">
+        </div>
+        <h1>Laptop</h1>
+        <span>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+        </span>
+        <p>Rs. 95000/-</p>
+        <button>Add to Cart</button>
+    </div>
+</div>
+<div class="card-container">
+    <div class="card">
+        <div>
+            <img src="./img13.jpg" alt="">
+        </div>
+        <h1>N-95 Mask</h1>
+        <span>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+        </span>
+        <p>Rs. 500/-</p>
+        <button>Add to Cart</button>
+    </div>
+    
+    <div class="card">
+        <div>
+            <img src="./img14.jpg" alt="">
+        </div>
+        <h1>Air Fryer</h1>
+        <span>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+        </span>
+        <p>Rs. 10000/-</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="card">
+        <div>
+            <img src="./img15.jpg" alt="">
+        </div>
+        <h1>Electric Heater</h1>
+        <span>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+        </span>
+        <p>Rs. 1500/-</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="card">
+        <div>
+            <img src="./img16.jpg" alt="">
+        </div>
+        <h1>Microwave oven</h1>
+        <span>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+        </span>
+        <p>Rs. 25000/-</p>
+        <button>Add to Cart</button>
+    </div>
+</div>
+
+</section>
+<!-- popular product end -->
+<section class="trends">
+    <div class="product-intro">
+        <h1>Top <span>Trends</span></h1>
+        <p>Top trends products</p>
+
+    </div>
+    <div class="swiper-container mySwiper">
+        <div class="swiper mySwiper"> 
+           
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="headphone/headPhone1.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="headphone/headPhone3.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="headphone/headPhone2.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="headphone/headPhone1.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="headphone/headPhone3.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="headphone/headPhone2.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="headphone/headPhone1.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="headphone/headPhone3.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="headphone/headPhone2.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="headphone/headPhone1.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="headphone/headPhone3.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="headphone/headPhone2.png" alt="" />
+          </div>
+         
+    <!-- <div class="swiper-pagination"></div> -->
+        </div>
+</section>
+<footer>
+    <div>
+        <h1>E <span>Shop</span></h1>
+        <p>Everythig in one click</p>
+    </div>
+    <div>
+                <a  href="https://github.com/Rameez-28"><i class="fa fa-github"></i></a>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-whatsapp"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-pinterest"></i>
+                <p><br>Design by Rameez Malik</p>
+    </div>
+    <div>
+        <p>@2022 Copyright All Rights Reserved </p>
+    </div>
+</footer>
+<!-- <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 1300,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
+  
+  <script src="./index.js"></script>
 </body>
 
 </html>
