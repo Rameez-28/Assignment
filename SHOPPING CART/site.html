@@ -59,6 +59,7 @@
                 <li><a href="#"><i class="fa fa-user"></i>Boy</a></li>
                 <li><a href="#"><i class="fa fa-users"></i> Accesssories</a></li>
                 <li><a href="#"><i class="fa fa-anchor"></i>
+
                 Toys <i class="fa fa-caret-down"></i></a>
             <ul>
                 <li><a href="#"><i class="fa fa-clipboard"></i>Wooden</a></li>
@@ -67,7 +68,8 @@
             </ul>
         </li>
                 <li><a href="#"><i class="fa fa-calendar-check-o"></i>Special</a></li>
-                <li><a href="#"><i class="fa fa-search"></i>Find</a></li>
+                <li><a href="#"><i type="button" class="fa fa-shopping-cart" onclick="myCart()"></i>Cart</a></li>
+                
             </ul>
         </nav>
         <!-- nav3 end -->
@@ -116,7 +118,7 @@
     <div class="card-container">
     <div class="card">
         <div>
-            <img src="./img1.jpg" alt="" id="img1">
+            <img src="./img1.jpg" alt="" id="img1" onclick="myfunction()">
         </div>
         <h1>Branded shoes</h1>
         <span>
@@ -126,16 +128,18 @@
             <i class="fa fa-star"></i>
         </span>
         <p>Rs. 5000/-</p>
-        <button id="btn1">Add to Cart</button>
-    <div class="cart-quantity cart-column">
+        <!-- <button id="btn1">Add to Cart</button> -->
+        <button class="btn btn-primary shop-item-button" type="button" onclick="myCart(1)">ADD TO CART</button>
+        <!-- <button type="button" onclick="myCart(1)"> Add to cart</button> -->
+    <!-- <div class="cart-quantity cart-column">
         <input class="cart-quantity-input" type="number" value="1">
         <button class="btn btn-danger" type="button">Remove </button>
-    </div>
+    </div> -->
     </div>
     
     <div class="card">
         <div>
-            <img src="./img2.jpg" alt="">
+            <img src="./img2.jpg" alt="" id="">
         </div>
         <h1>Ray-Ban Glasses</h1>
         <span>
@@ -145,11 +149,12 @@
             <i class="fa fa-star"></i>
         </span>
         <p>Rs. 10000/-</p>
-        <button>Add to Cart</button>
+        <button class="btn btn-primary shop-item-button" type="button" onclick="myCart(1)">ADD TO CART</button>
+        <!-- <button type="button" onclick="myCart(2)"> Add to cart</button> -->
     </div>
     <div class="card">
         <div>
-            <img src="./img3.jfif" alt="">
+            <img src="./img3.jpg" alt="">
         </div>
         <h1>Wallet</h1>
         <span>
@@ -157,9 +162,11 @@
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
+            
         </span>
         <p>Rs. 2000/-</p>
-        <button>Add to Cart</button>
+        <button class="btn btn-primary shop-item-button" type="button" onclick="myCart(1)">ADD TO CART</button>
+        <!-- <button type="button" onclick="myCart(3)"> Add to cart</button> -->
     </div>
     <div class="card">
         <div>
@@ -173,7 +180,7 @@
             <i class="fa fa-star"></i>
         </span>
         <p>Rs. 2000/-</p>
-        <button>Add to Cart</button>
+        <button type="button" onclick="myCart(4)"> Add to cart</button>
     </div>
 </div>
 <div class="card-container">
@@ -189,7 +196,7 @@
             <i class="fa fa-star"></i>
         </span>
         <p>Rs. 3000/-</p>
-        <button>Add to Cart</button>
+        <button type="button" onclick="myCart(5)"> Add to cart</button>
     </div>
     
     <div class="card">
@@ -204,7 +211,7 @@
             <i class="fa fa-star"></i>
         </span>
         <p>Rs. 1000/-</p>
-        <button>Add to Cart</button>
+        <button type="button" onclick="myCart(6)"> Add to cart</button>
     </div>
     <div class="card">
         <div>
@@ -218,7 +225,7 @@
             <i class="fa fa-star"></i>
         </span>
         <p>Rs. 12000/-</p>
-        <button>Add to Cart</button>
+        <button type="button" onclick="myCart(7)"> Add to cart</button>
     </div>
     <div class="card">
         <div>
@@ -232,7 +239,7 @@
             <i class="fa fa-star"></i>
         </span>
         <p>Rs. 5000/-</p>
-        <button>Add to Cart</button>
+        <button type="button" onclick="myCart(8)"> Add to cart</button>
     </div>
 </div>
 </section>
@@ -365,6 +372,7 @@
 </div>
 
 </section>
+
 <!-- popular product end -->
 <section class="trends">
     <div class="product-intro">
@@ -416,6 +424,7 @@
     <!-- <div class="swiper-pagination"></div> -->
         </div>
 </section>
+
 <footer>
     <div>
         <h1>E <span>Shop</span></h1>
@@ -433,6 +442,7 @@
         <p>@2022 Copyright All Rights Reserved </p>
     </div>
 </footer>
+
 <!-- <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>
